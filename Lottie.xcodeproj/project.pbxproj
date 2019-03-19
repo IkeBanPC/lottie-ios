@@ -615,8 +615,8 @@
 		486E89F3220B790E007CD915 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E879D220B78BF007CD915 /* Interpolatable.swift */; };
 		486E89F4220B790E007CD915 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E879E220B78BF007CD915 /* KeyframeExtensions.swift */; };
 		486E89F5220B790E007CD915 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E87A0220B78BF007CD915 /* AnimationContext.swift */; };
-		59FEFD9F2240E2210051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */; };
-		59FEFDA02240E2210051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */; };
+		59FEFDA22240E72C0051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFDA12240E72C0051913C /* BroadLayoutAnchor.swift */; };
+		59FEFDA32240E72C0051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFDA12240E72C0051913C /* BroadLayoutAnchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -767,7 +767,7 @@
 		486E879D220B78BF007CD915 /* Interpolatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
 		486E879E220B78BF007CD915 /* KeyframeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeExtensions.swift; sourceTree = "<group>"; };
 		486E87A0220B78BF007CD915 /* AnimationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
-		59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadLayoutAnchor.swift; sourceTree = "<group>"; };
+		59FEFDA12240E72C0051913C /* BroadLayoutAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadLayoutAnchor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -858,7 +858,6 @@
 		486E86FA220B78BF007CD915 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */,
 				486E86FB220B78BF007CD915 /* Public */,
 				486E871F220B78BF007CD915 /* Private */,
 			);
@@ -912,6 +911,7 @@
 		486E8707220B78BF007CD915 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				59FEFDA12240E72C0051913C /* BroadLayoutAnchor.swift */,
 				25D5436B22306C8C00ED90FA /* Compatibility */,
 				486E8708220B78BF007CD915 /* FilepathImageProvider.swift */,
 				486E8709220B78BF007CD915 /* AnimatedSwitch.swift */,
@@ -1610,7 +1610,7 @@
 				486E87F6220B78D1007CD915 /* ImageLayerModel.swift in Sources */,
 				486E87F7220B78D1007CD915 /* TextLayerModel.swift in Sources */,
 				486E87F8220B78D1007CD915 /* PreCompLayerModel.swift in Sources */,
-				59FEFD9F2240E2210051913C /* BroadLayoutAnchor.swift in Sources */,
+				59FEFDA22240E72C0051913C /* BroadLayoutAnchor.swift in Sources */,
 				486E87F9220B78D1007CD915 /* ShapeLayerModel.swift in Sources */,
 				486E87FA220B78D1007CD915 /* Animation.swift in Sources */,
 				486E87FB220B78D1007CD915 /* DashPattern.swift in Sources */,
@@ -1912,7 +1912,6 @@
 				486E890A220B78FF007CD915 /* AnimationPublic.swift in Sources */,
 				486E890B220B78FF007CD915 /* AnimationImageProvider.swift in Sources */,
 				486E890C220B78FF007CD915 /* FilepathImageProvider.swift in Sources */,
-				59FEFDA02240E2210051913C /* BroadLayoutAnchor.swift in Sources */,
 				4866743622249C0600258C00 /* TextCompositionLayer.swift in Sources */,
 				486E890D220B78FF007CD915 /* AnimatedSwitch.swift in Sources */,
 				486E890E220B78FF007CD915 /* BundleImageProvider.swift in Sources */,
@@ -1999,6 +1998,7 @@
 				486E895E220B78FF007CD915 /* TextLayerModel.swift in Sources */,
 				486E895F220B78FF007CD915 /* PreCompLayerModel.swift in Sources */,
 				25D5437322307C8800ED90FA /* CompatibleAnimationKeypath.swift in Sources */,
+				59FEFDA32240E72C0051913C /* BroadLayoutAnchor.swift in Sources */,
 				486E8960220B78FF007CD915 /* ShapeLayerModel.swift in Sources */,
 				486E8961220B78FF007CD915 /* Animation.swift in Sources */,
 				486E8962220B78FF007CD915 /* DashPattern.swift in Sources */,

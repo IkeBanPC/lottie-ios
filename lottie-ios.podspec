@@ -20,7 +20,7 @@ DESC
   s.homepage         = 'https://github.com/airbnb/lottie-ios'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Brandon Withrow' => 'buba447@gmail.com' }
-  s.source           = { :git => 'https://github.com/airbnb/lottie-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/IkeBanPC/lottie-ios.git', :tag => s.version.to_s }
   
   s.swift_version = '4.2'
   s.ios.deployment_target = '8.1'
