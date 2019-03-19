@@ -23,7 +23,7 @@ DESC
   s.source           = { :git => 'https://github.com/airbnb/lottie-ios.git', :tag => s.version.to_s }
   
   s.swift_version = '4.2'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.1'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   
@@ -38,4 +38,5 @@ DESC
   s.osx.frameworks = ['AppKit', 'CoreGraphics', 'QuartzCore']
   s.module_name = 'Lottie'
   s.header_dir = 'Lottie'
+  s.static_framework  =  true
 end
