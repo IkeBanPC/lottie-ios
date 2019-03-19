@@ -15,9 +15,7 @@
 		25D5437522307C8C00ED90FA /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D5436E22306E2D00ED90FA /* CompatibleAnimationView.swift */; };
 		4866743322249C0600258C00 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866743222249C0600258C00 /* TextCompositionLayer.swift */; };
 		4866743422249C0600258C00 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866743222249C0600258C00 /* TextCompositionLayer.swift */; };
-		4866743522249C0600258C00 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866743222249C0600258C00 /* TextCompositionLayer.swift */; };
 		4866743622249C0600258C00 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866743222249C0600258C00 /* TextCompositionLayer.swift */; };
-		4866743722249C0600258C00 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866743222249C0600258C00 /* TextCompositionLayer.swift */; };
 		4866744122249C4E00258C00 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866744022249C4E00258C00 /* TextAnimatorNode.swift */; };
 		4866744222249C4E00258C00 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866744022249C4E00258C00 /* TextAnimatorNode.swift */; };
 		4866744322249C4E00258C00 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866744022249C4E00258C00 /* TextAnimatorNode.swift */; };
@@ -168,7 +166,6 @@
 		486E8830220B78E4007CD915 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E871E220B78BF007CD915 /* PointValueProvider.swift */; };
 		486E8831220B78E4007CD915 /* CompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8722220B78BF007CD915 /* CompositionLayer.swift */; };
 		486E8832220B78E4007CD915 /* NullCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8723220B78BF007CD915 /* NullCompositionLayer.swift */; };
-		486E8833220B78E4007CD915 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8724220B78BF007CD915 /* TextCompositionLayer.swift */; };
 		486E8834220B78E4007CD915 /* SolidCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8725220B78BF007CD915 /* SolidCompositionLayer.swift */; };
 		486E8835220B78E4007CD915 /* PreCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8726220B78BF007CD915 /* PreCompositionLayer.swift */; };
 		486E8836220B78E4007CD915 /* ImageCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8727220B78BF007CD915 /* ImageCompositionLayer.swift */; };
@@ -406,7 +403,6 @@
 		486E891E220B78FF007CD915 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E871E220B78BF007CD915 /* PointValueProvider.swift */; };
 		486E891F220B78FF007CD915 /* CompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8722220B78BF007CD915 /* CompositionLayer.swift */; };
 		486E8920220B78FF007CD915 /* NullCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8723220B78BF007CD915 /* NullCompositionLayer.swift */; };
-		486E8921220B78FF007CD915 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8724220B78BF007CD915 /* TextCompositionLayer.swift */; };
 		486E8922220B78FF007CD915 /* SolidCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8725220B78BF007CD915 /* SolidCompositionLayer.swift */; };
 		486E8923220B78FF007CD915 /* PreCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8726220B78BF007CD915 /* PreCompositionLayer.swift */; };
 		486E8924220B78FF007CD915 /* ImageCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8727220B78BF007CD915 /* ImageCompositionLayer.swift */; };
@@ -619,6 +615,8 @@
 		486E89F3220B790E007CD915 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E879D220B78BF007CD915 /* Interpolatable.swift */; };
 		486E89F4220B790E007CD915 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E879E220B78BF007CD915 /* KeyframeExtensions.swift */; };
 		486E89F5220B790E007CD915 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E87A0220B78BF007CD915 /* AnimationContext.swift */; };
+		59FEFD9F2240E2210051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */; };
+		59FEFDA02240E2210051913C /* BroadLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -769,6 +767,7 @@
 		486E879D220B78BF007CD915 /* Interpolatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
 		486E879E220B78BF007CD915 /* KeyframeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeExtensions.swift; sourceTree = "<group>"; };
 		486E87A0220B78BF007CD915 /* AnimationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
+		59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadLayoutAnchor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -859,6 +858,7 @@
 		486E86FA220B78BF007CD915 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				59FEFD9E2240E2210051913C /* BroadLayoutAnchor.swift */,
 				486E86FB220B78BF007CD915 /* Public */,
 				486E871F220B78BF007CD915 /* Private */,
 			);
@@ -1449,7 +1449,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = YurtvilleProds;
 				TargetAttributes = {
 					486E83B1220A317C007CD915 = {
@@ -1610,6 +1610,7 @@
 				486E87F6220B78D1007CD915 /* ImageLayerModel.swift in Sources */,
 				486E87F7220B78D1007CD915 /* TextLayerModel.swift in Sources */,
 				486E87F8220B78D1007CD915 /* PreCompLayerModel.swift in Sources */,
+				59FEFD9F2240E2210051913C /* BroadLayoutAnchor.swift in Sources */,
 				486E87F9220B78D1007CD915 /* ShapeLayerModel.swift in Sources */,
 				486E87FA220B78D1007CD915 /* Animation.swift in Sources */,
 				486E87FB220B78D1007CD915 /* DashPattern.swift in Sources */,
@@ -1677,7 +1678,6 @@
 				486E8831220B78E4007CD915 /* CompositionLayer.swift in Sources */,
 				486E8832220B78E4007CD915 /* NullCompositionLayer.swift in Sources */,
 				25D5437422307C8B00ED90FA /* CompatibleAnimationView.swift in Sources */,
-				486E8833220B78E4007CD915 /* TextCompositionLayer.swift in Sources */,
 				486E8834220B78E4007CD915 /* SolidCompositionLayer.swift in Sources */,
 				486E8835220B78E4007CD915 /* PreCompositionLayer.swift in Sources */,
 				486E8836220B78E4007CD915 /* ImageCompositionLayer.swift in Sources */,
@@ -1879,7 +1879,6 @@
 				486E88F9220B78F4007CD915 /* AnimatorNodeDebugging.swift in Sources */,
 				486E88FA220B78F4007CD915 /* CGFloatExtensions.swift in Sources */,
 				486E88FB220B78F4007CD915 /* AnimationKeypathExtension.swift in Sources */,
-				4866743522249C0600258C00 /* TextCompositionLayer.swift in Sources */,
 				486E88FC220B78F4007CD915 /* MathKit.swift in Sources */,
 				486E88FD220B78F4007CD915 /* StringExtensions.swift in Sources */,
 				486E88FE220B78F4007CD915 /* BezierPath.swift in Sources */,
@@ -1913,6 +1912,7 @@
 				486E890A220B78FF007CD915 /* AnimationPublic.swift in Sources */,
 				486E890B220B78FF007CD915 /* AnimationImageProvider.swift in Sources */,
 				486E890C220B78FF007CD915 /* FilepathImageProvider.swift in Sources */,
+				59FEFDA02240E2210051913C /* BroadLayoutAnchor.swift in Sources */,
 				4866743622249C0600258C00 /* TextCompositionLayer.swift in Sources */,
 				486E890D220B78FF007CD915 /* AnimatedSwitch.swift in Sources */,
 				486E890E220B78FF007CD915 /* BundleImageProvider.swift in Sources */,
@@ -1935,7 +1935,6 @@
 				486E891F220B78FF007CD915 /* CompositionLayer.swift in Sources */,
 				486E8920220B78FF007CD915 /* NullCompositionLayer.swift in Sources */,
 				25D5437522307C8C00ED90FA /* CompatibleAnimationView.swift in Sources */,
-				486E8921220B78FF007CD915 /* TextCompositionLayer.swift in Sources */,
 				486E8922220B78FF007CD915 /* SolidCompositionLayer.swift in Sources */,
 				486E8923220B78FF007CD915 /* PreCompositionLayer.swift in Sources */,
 				486E8924220B78FF007CD915 /* ImageCompositionLayer.swift in Sources */,
@@ -2137,7 +2136,6 @@
 				486E89E7220B790E007CD915 /* AnimatorNodeDebugging.swift in Sources */,
 				486E89E8220B790E007CD915 /* CGFloatExtensions.swift in Sources */,
 				486E89E9220B790E007CD915 /* AnimationKeypathExtension.swift in Sources */,
-				4866743722249C0600258C00 /* TextCompositionLayer.swift in Sources */,
 				486E89EA220B790E007CD915 /* MathKit.swift in Sources */,
 				486E89EB220B790E007CD915 /* StringExtensions.swift in Sources */,
 				486E89EC220B790E007CD915 /* BezierPath.swift in Sources */,
@@ -2217,7 +2215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2275,7 +2273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -2299,7 +2297,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Lottie/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2325,7 +2323,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Lottie/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2396,7 +2394,7 @@
 		486E856D220A3606007CD915 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -2424,7 +2422,7 @@
 		486E856E220A3606007CD915 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;

@@ -262,9 +262,9 @@ public final class CompatibleAnimationView: UIView {
   private func setUpViews() {
     animationView.translatesAutoresizingMaskIntoConstraints = false
     addSubview(animationView)
-    animationView.topAnchor.constraint(equalTo: topAnchor).isActive = true
-    animationView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-    animationView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-    animationView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+    animationView.bd_topAnchor.bd_constraint(equalTo: bd_topAnchor).isActive = true
+    animationView.bd_trailingAnchor.bd_constraint(equalTo: bd_trailingAnchor).isActive = true
+    animationView.bd_leadingAnchor.bd_constraint(equalTo: bd_leadingAnchor).isActive = true
+    animationView.bd_bottomAnchor.bd_constraint(equalTo: bd_bottomAnchor).isActive = true
   }
 }
