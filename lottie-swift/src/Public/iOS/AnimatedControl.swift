@@ -36,6 +36,7 @@ open class AnimatedControl: UIControl {
       animationView.bounds = animation?.bounds ?? .zero
       setNeedsLayout()
       updateForState()
+      animationDidSet()
     }
   }
   
@@ -43,6 +44,11 @@ open class AnimatedControl: UIControl {
   public func setLayer(named: String, forState: UIControl.State) {
     stateMap[forState.rawValue] = named
     updateForState()
+  }
+
+  /// Sets a ValueProvider for the specified keypath
+  public func setValueProvider(_ valueProvider: AnyValueProvider, keypath: AnimationKeypath) {
+    animationView.setValueProvider(valueProvider, keypath: keypath)
   }
   
   // MARK: Initializers
@@ -107,6 +113,10 @@ open class AnimatedControl: UIControl {
   
   open override var intrinsicContentSize: CGSize {
     return animationView.intrinsicContentSize
+  }
+  
+  open func animationDidSet() {
+    
   }
   
   // MARK: Private
