@@ -1463,6 +1463,7 @@
 					};
 					486E85F2220A36F6007CD915 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					486E8674220A3751007CD915 = {
 						CreatedOnToolsVersion = 10.0;
@@ -1475,6 +1476,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 486E8387220A3038007CD915;
 			productRefGroup = 486E8392220A3038007CD915 /* Products */;
@@ -2456,7 +2458,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Lottie;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2469,7 +2471,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Lottie;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
